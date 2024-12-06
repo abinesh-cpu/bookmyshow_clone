@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
+        {% load static %}
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Document</title>
@@ -8,7 +9,7 @@
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
-        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="{% static  'style.css' %}">
     </head>
     <body>
         <div id="main1" class="image-fluid d-flex ">
@@ -16,7 +17,7 @@
                 <!-- Movie Card 1 -->
                 <div class="col-md-4">
                     <div class="movie-card">
-                        <img src="pushpa.avif" alt="pushpa" style="height: 400px; width:100%;">
+                        <img src="../static/images/pushpa.avif" alt="pushpa" style="height: 400px; width:100%;">
                         <div class="movie-details">
                             <div class="movie-stats" style="background-color: #000000">
                                 <span> Releasing on 5th Dec, 2024</span>
@@ -70,32 +71,32 @@
       <div class="carousel-item active">
         <div class="d-flex gap-2">
         <div>
-        <img src="images/alluarjun.avif" class=" d-inline rounded-circle" style="width:165px;" alt="">
+        <img src="../static/images/alluarjun.avif" class=" d-inline rounded-circle" style="width:165px;" alt="">
         <b><figcaption style="text-align: center;">Allu Arjun</figcaption></b>
         <figcaption style="text-align: center;">as Pushpa Raj</figcaption>
        </div>
        <div>
-        <img src="images/fahad.avif" class=" d-inline rounded-circle" style="width:165px;" alt="">
+        <img src="../static/images/fahad.avif" class=" d-inline rounded-circle" style="width:165px;" alt="">
         <b><figcaption style="text-align: center;">Fahadh Fasil</figcaption></b>
         <figcaption style="text-align: center;">as Bhanwar Singh Shekhawat</figcaption>
        </div>
        <div>
-        <img src="images/rashmika.avif" class=" d-inline rounded-circle" style="width:165px;" alt="">
+        <img src="../static/images/rashmika.avif" class=" d-inline rounded-circle" style="width:165px;" alt="">
         <b><figcaption style="text-align: center;">Rashmika Mandhana</figcaption></b>
         <figcaption style="text-align: center;">as Srivalli</figcaption>
         </div> 
         <div>
-        <img src="images/raoramesh.avif" class=" d-inline rounded-circle" style="width:165px;" alt=""> 
+        <img src="../static/images/raoramesh.avif" class=" d-inline rounded-circle" style="width:165px;" alt=""> 
         <b><figcaption style="text-align: center;">Rao Ramesh</figcaption></b>
         <figcaption style="text-align: center;">Actor</figcaption>
         </div>
         <div>
-        <img src="images/sunil.avif" class=" d-inline rounded-circle" style="width:165px;" alt="">
+        <img src="../static/images/sunil.avif" class=" d-inline rounded-circle" style="width:165px;" alt="">
         <b><figcaption style="text-align: center;">Sunil</figcaption></b>
         <figcaption style="text-align: center;">Actor</figcaption>
         </div>
         <div> 
-        <img src="images/anasuya.avif" class=" d-inline rounded-circle" style="width:165px;" alt="">
+        <img src="../static/images/anasuya.avif" class=" d-inline rounded-circle" style="width:165px;" alt="">
         <b><figcaption style="text-align: center;">Anasuya Bharadhwaj</figcaption></b>
         <figcaption style="text-align: center;">Actor</figcaption>
         </div>
@@ -112,32 +113,32 @@
           <div class="carousel-item active">
             <div class="d-flex gap-2">
             <div>
-            <img src="images/sukumar.avif" class=" d-inline rounded-circle" style="width:165px;" alt="">
+            <img src="../static/images/sukumar.avif" class=" d-inline rounded-circle" style="width:165px;" alt="">
             <b><figcaption style="text-align: center;">Sukumar Bandreddi</figcaption></b>
             <figcaption style="text-align: center;">Director, Writer, Screenplay</figcaption>
            </div>
            <div>
-            <img src="images/naveen.avif" class=" d-inline rounded-circle" style="width:165px;" alt="">
+            <img src="../static/images/naveen.avif" class=" d-inline rounded-circle" style="width:165px;" alt="">
             <b><figcaption style="text-align: center;">Naveen Yerneni</figcaption></b>
             <figcaption style="text-align: center;">Producer</figcaption>
            </div>
            <div>
-            <img src="images/ravi.avif" class=" d-inline rounded-circle" style="width:165px;" alt="">
+            <img src="../static/images/ravi.avif" class=" d-inline rounded-circle" style="width:165px;" alt="">
             <b><figcaption style="text-align: center;">Ravi Shankar Yalamanchili</figcaption></b>
             <figcaption style="text-align: center;">as Srivalli</figcaption>
             </div> 
             <div>
-            <img src="images/prasad.avif" class=" d-inline rounded-circle" style="width:165px;" alt=""> 
+            <img src="../static/images/prasad.avif" class=" d-inline rounded-circle" style="width:165px;" alt=""> 
             <b><figcaption style="text-align: center;">Devi Sri Prasad</figcaption></b>
             <figcaption style="text-align: center;">Musician</figcaption>
             </div>
             <div>
-            <img src="images/bose.avif" class=" d-inline rounded-circle" style="width:165px;" alt="">
+            <img src="../static/images/bose.avif" class=" d-inline rounded-circle" style="width:165px;" alt="">
             <b><figcaption style="text-align: center;">Chandrabose</figcaption></b>
             <figcaption style="text-align: center;">Lyricist</figcaption>
             </div>
             <div> 
-            <img src="images/navin.avif" class=" d-inline rounded-circle" style="width:165px;" alt="">
+            <img src="../static/images/navin.avif" class=" d-inline rounded-circle" style="width:165px;" alt="">
             <b><figcaption style="text-align: center;">Navin Nooli</figcaption></b>
             <figcaption style="text-align: center;">Editor</figcaption>
             </div>
@@ -155,7 +156,7 @@
                             <div class="col-md-3">
                                 <a class="text-decoration-none text-black" href="#">
                                     <div class="movie-card">
-                                        <img src="images/amaran.avif" alt="Amaran" style="height: 400px; width:100%;">
+                                        <img src="../static/images/amaran.avif" alt="Amaran" style="height: 400px; width:100%;">
                                         <div class="movie-details">
                                             <h5 class="movie-title">Amaran</h5>
                                             <!-- <p class="movie-genre">Action/Thriller</p> -->
@@ -167,7 +168,7 @@
                             <div class="col-md-3">
                                 <a class="text-decoration-none text-black" href="#">
                                     <div class="movie-card">
-                                        <img src="images/zebra.avif" alt="Zebra" style="height: 400px; width:100%;">
+                                        <img src="../static/images/zebra.avif" alt="Zebra" style="height: 400px; width:100%;">
                                         <div class="movie-details">
                                             <h5 class="movie-title">Zebra</h5>
                                             <!-- <p class="movie-genre">Family/Thriller</p> -->
@@ -178,7 +179,7 @@
                             <div class="col-md-3">
                                 <a class="text-decoration-none text-black" href="#">
                                     <div class="movie-card">
-                                        <img src="images/kalam.avif" alt="Kalam@24" style="height: 400px; width:100%;">
+                                        <img src="../static/images/kalam.avif" alt="Kalam@24" style="height: 400px; width:100%;">
                                         <div class="movie-details">
                                             <h5 class="movie-title">Kalam@24</h5>
                                             <!-- <p class="movie-genre">Fun/Fantasy</p> -->
@@ -189,7 +190,7 @@
                             <div class="col-md-3">
                                 <a class="text-decoration-none text-black" href="#">
                                     <div class="movie-card">
-                                        <img src="images/sorgavaasal.avif" alt="Sorgavaasal" style="height: 400px; width:100%;">
+                                        <img src="../static/images/sorgavaasal.avif" alt="Sorgavaasal" style="height: 400px; width:100%;">
                                         <div class="movie-details">
                                             <h5 class="movie-title">Sorgavaasal</h5>
                                             <!-- <p class="movie-genre">Action/Adventure/Anime/Fantasy</p> -->
@@ -209,7 +210,7 @@
       <div class="row justify-content-center text-center text-md-start">
         <div class="col-md-10">
           <p class="text-white">
-            <a href="#" class=" footer-logo text-white fw-bold text-decoration-none"><img src="images/hut.svg" alt="">List your Show &nbsp; &nbsp;</a> 
+            <a href="#" class=" footer-logo text-white fw-bold text-decoration-none"><img src="../static/images/hut.svg" alt="">List your Show &nbsp; &nbsp;</a> 
             Got a show, event, activity or a great experience? Partner with us & get listed on BookMyShow 
             <a id="contact"  href="#" class="btn btn-danger ">Contact today! </a>
         </p>
@@ -399,7 +400,7 @@
 </div>
 <div class="line mt-5">
 <hr class="left-line">
-<img src="images/book.svg" alt="Logo" class="logo">
+<img src="../static/images/book.svg" alt="Logo" class="logo">
 <hr class="right-line">
 </div>
 <div class=" social mt-5 d-flex justify-content-center ">
